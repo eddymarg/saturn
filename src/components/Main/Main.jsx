@@ -10,7 +10,7 @@ const Main = () => {
         <div className='main'>
             <div className="nav">
                 <p>Saturn</p>
-                <img src={assets.user_icon} alt="" />
+                <img src={assets.saturnpfp} alt="" />
             </div>
             <div className="main-container">
                 {!showResult
@@ -40,7 +40,7 @@ const Main = () => {
                 </>
                 :<div className='result'>
                     <div className="result-title">
-                        <img src={assets.user_icon} alt="" />
+                        <img src={assets.saturnpfp} alt="" />
                         <p>{recentPrompt}</p>
                     </div>
                     <div className="result-data">
